@@ -1,5 +1,7 @@
 ![Twitterline](http://users.irq6.net/~/lytchi/twitterline.png)
 
+Launch the script in the background : ./twitter.sh & Check the return value, if the return code is 255, something went wrong.
+
 This little script is using the Twitter OAuth 1.0 and the user streaming API and display in the shell everytime you hit enter. The tweets are spooled in a temporary file (/tmp/.twitter). That's not a big thing but I still using it.
 
 Do not forget to add this on your ~/.bashrc.
